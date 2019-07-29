@@ -9,7 +9,7 @@
 
 .slide {
   width: 700px;
-  position: relative;
+  position: absolute;
   z-index: 10;
 }
 
