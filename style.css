@@ -1,0 +1,45 @@
+.slider {
+  border: 1px solid #9ACD32;
+  width: 700px;
+  height: 340px;
+  overflow: hidden;
+  padding: 0 100px;
+  position: relative;
+}
+
+.slide {
+  width: 700px;
+  position: relative;
+  z-index: 10;
+}
+
+.btn {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 40px solid transparent;
+  margin-top: -25px;
+  cursor: pointer;
+}
+
+.btn-prev {
+  left: 0;
+  top: 50%;
+  border-right-color: #9ACD32;
+  border-left: 0;
+}
+
+.btn-next {
+  right: 0;
+  top: 50%;
+  border-left-color: #9ACD32;
+  border-right: 0;
+}
+
+.slide-top {
+  z-index: 200;
+}
+
+.slide-bottom {
+  z-index: 10;
+}
