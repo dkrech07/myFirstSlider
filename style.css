@@ -1,16 +1,16 @@
 .slider {
   border: 1px solid #9ACD32;
-  width: 700px;
-  height: 340px;
+  width: 320px;
+  min-height: 213px;
   overflow: hidden;
   padding: 0 100px;
   position: relative;
 }
 
 .slide {
-  width: 700px;
+  width: 320px;
+  min-height: 213px;
   position: absolute;
-  z-index: 10;
 }
 
 .btn {
