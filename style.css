@@ -36,10 +36,10 @@
   border-right: 0;
 }
 
-.slide-top {
+.slide-top-btn-right {
   z-index: 200;
 }
 
-.slide-bottom {
-  z-index: 10;
+.slide-top-btn-left {
+  z-index: 200;
 }
