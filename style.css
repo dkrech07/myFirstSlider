@@ -7,10 +7,26 @@
   position: relative;
 }
 
+.slider ul {
+  margin: 0;
+  padding: 0;
+}
+
 .slide {
+  margin: 0;
+  padding: 0;
   width: 320px;
   min-height: 213px;
   position: absolute;
+  list-style-type: none;
+  background: #ffffff;
+  vertical-align: bottom;
+}
+
+.slide img {
+  width: 320px;
+  height: 150px;
+  min-height: 213px;
 }
 
 .btn {
